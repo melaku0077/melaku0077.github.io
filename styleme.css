@@ -1,0 +1,38 @@
+h1{
+    font-size: 50px;
+}
+
+h1, h2{
+    color: cornflowerblue;
+        
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;   
+}
+
+p strong{
+    color:blue
+}
+
+ul {
+    font-family:Verdana;
+    font-size:medium;
+   
+}
+
+ul em{
+    color:chocolate; 
+      
+}
+
+li strong {
+    color:brown;
+    font-style:italic;
+}
+
+li{
+    font-size: larger;
+   
+}
