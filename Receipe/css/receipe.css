@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/silverware.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+.no-bullet{
+    list-style-type:none;
+
+}
+
+h2{
+    color:#A4A400;
+    background-color:beige;
+    font-weight: normal;
+
+}
+
+ul span{
+    text-decoration-style: underline;
+
+}
+
+.boldList{
+    font-weight: bold;
+}
+
+.line{
+    text-decoration: underline;
+}
+
+.comment{
+    margin:15px auto 15px;
+    background-color: #FFFFA8;
+    width:90%;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+footer {
+    position:fixed;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.5;
+
+}
