@@ -33,7 +33,6 @@ console.assert(maxOfThree(5,19,21) === 21, "False Assertion");
 
 /////////////////////////////////////////////////////////////////////////////////////
 
-
 //Question#3
 function isVowel(x){
     let myChar = x.toLowerCase();
