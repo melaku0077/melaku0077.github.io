@@ -143,14 +143,14 @@ const a = [1,3,5,3,3];
 const b = a.map(function(elem, array) {
   return elem * 10;
 })
-console.log(b)
+console.log("Result of a.map is :" + b);
 
 const c = a.filter(function(elem, array){
     return elem === 3;});
-    console.log(c)
+    console.log("Result of a.filter is :" + c);
 
 const newValue = a.reduce((a,b)=>a*b);
-console.log(newValue);
+console.log("Result of a.reduce is :" + newValue);
 /////////////////////////////////////////////////////////////////////////////////////
 
 
