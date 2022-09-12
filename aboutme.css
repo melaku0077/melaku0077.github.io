@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:beige;   
+}
+
+h1{
+    font-size: 50px;
+}
+
+h1, h2{
+    color: cornflowerblue;
+        
+}
+
+p strong{
+    color:blue
+}
+
+ul {
+    font-family:Verdana;
+    font-size:medium;
+}
+
+ul em{
+    color:chocolate; 
+}
+
+li strong {
+    color:brown;
+    font-style:italic;
+}
+
+li{
+    font-size: larger;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: Blue;
+}
+
+dt{
+    color:chocolate;
+    font-weight: bold;
+    font-size: smaller;
+   
+}
+
+dd {
+    font-style: italic;
+}
+
+.myFavourite { 
+    display: flex;
+    flex-direction: column-reverse;
+}
