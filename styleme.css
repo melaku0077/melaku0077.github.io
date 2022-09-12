@@ -1,15 +1,98 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(38 79 63);;   
+}
+
+.header{
+    background-image: url("images/headerPic.jpg");
+    background-blend-mode: multiply;
+    display:block;
+}
+
+main {
+    margin-top: 150px;
+    margin-left: 60px;
+    
+    color: #fff;
+}
+
+.mainHeader, .studId{
+    color: white;
+    margin-left: 5rem;
+}
+
+.myProfPic{
+    
+        width: 150px;
+        height: 150px;
+        border-radius: 50%; 
+        position: absolute;
+        top: 1em;
+        left: 2em;
+}
+
+.mainHeader, .mainHeaderspan::first-letter{
+    font-size: 2em;
+}
+
+
+section h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+main h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.listofAssignment a{
+    text-decoration: none;
+    color:white;
+}
+
+.listofAssignment a:hover{
+    text-decoration: underline;
+}
+
+.main div.listofAssignment{
+    padding-left: 50px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+footer{
+    background-color:black;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+    color: #FFD740;
+    font-size:small;
+    letter-spacing: 0.2rem;
+    
+}
+
+#email{
+    color:white;
+}
+/* h1{
     font-size: 50px;
 }
 
 h1, h2{
     color: cornflowerblue;
         
-}
-
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: bisque;   
 }
 
 p strong{
@@ -19,12 +102,10 @@ p strong{
 ul {
     font-family:Verdana;
     font-size:medium;
-   
 }
 
 ul em{
     color:chocolate; 
-      
 }
 
 li strong {
@@ -34,5 +115,35 @@ li strong {
 
 li{
     font-size: larger;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: Blue;
+}
+
+dt{
+    color:chocolate;
+    font-weight: bold;
+    font-size: smaller;
    
 }
+
+dd {
+    font-style: italic;
+}
+
+.myFavourite { 
+    display: flex;
+    flex-direction: column-reverse;
+} */
+
