@@ -1,0 +1,39 @@
+<!-- Melaku G.Denbel 
+Maharashi International University 
+WAP Assignment on Functional Programming
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+
+    <script>
+      // initializing
+      mocha.setup("bdd");
+
+      let assert = chai.assert;
+    </script>
+
+    <script src="js/mainCode.js"></script>
+    <script src="js/test.js"></script>
+
+    <title>Functional Programming</title>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
