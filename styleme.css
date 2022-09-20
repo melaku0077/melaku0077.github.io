@@ -27,10 +27,11 @@ main {
 }
 
 .myProfPic{
-    width: 100px;
+/*     width: 100px;
     height: 100px;
     border-radius: 50%;
-    float: left;
+    float: left; */
+    border-radius: 50%;
 }
 
 .mainHeader, .mainHeaderspan::first-letter{
