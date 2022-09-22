@@ -10,9 +10,11 @@ body {
 }
 
 .header{
-    background-image: url("images/headerPic.jpg");
-    background-blend-mode: multiply;
-    display:block;
+    background-color:cadetblue;
+    /* background-image: url("images/headerPic.jpg"); */
+    
+    /* background-blend-mode: multiply;      */
+    /* display:block; */
 }
 
 main {
@@ -22,16 +24,16 @@ main {
 }
 
 .mainHeader, .studId{
-    color: white;
-    margin-left:15rem;
+    color:black;
+    margin-left:5px;
 }
 
-.myProfPic{
-/*     width: 100px;
+#myProfPic{
+    width: 100px;
     height: 100px;
-    border-radius: 50%;
-    float: left; */
-    border-radius: 50%;
+    border-radius: 90%;
+    float: left;
+    
 }
 
 .mainHeader, .mainHeaderspan::first-letter{
@@ -82,5 +84,4 @@ footer{
 #email{
     color:white;
 }
-
 
